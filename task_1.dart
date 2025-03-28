@@ -17,7 +17,7 @@ class Dragon {
     int schaden = gegner.firePower >= 15 ? 15 : gegner.firePower; // Gibt schaden zurück
     gegner.firePower -= schaden;
 
-    print("$name greift ${gegner.name} und verursacht $schaden Schaden");
+    print("$name greift ${gegner.name} an und verursacht $schaden Schaden");
     return schaden;
 
   }
